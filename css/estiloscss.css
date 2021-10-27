@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* formato en seccion inicio */
+/* imagen inicio */
+.imagenInicio {
+  max-width: 100%;
+  max-height: 100%; }
+
+body {
+  width: 100%; }
+
+/*inicio */
+.bloqueBlanco {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; }
+  .bloqueBlanco h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 45px; }
+  .bloqueBlanco p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 10%; }
+  .bloqueBlanco button {
+    font-size: 16px;
+    background-color: black;
+    text-decoration: none;
+    font-family: arial;
+    padding: 20px;
+    color: white;
+    transition: 0.3s; }
+  .bloqueBlanco button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none; }
+  .bloqueBlanco h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%; }
+
+.bloqueNegro {
+  background-color: black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 30px; }
+  .bloqueNegro div {
+    padding: 5px; }
+
+/* CELULARES Y DISPOSITIVOS PEQUEÑOS */
+/* formato en seccion contacto*/
+/* formulario */
+.header {
+  color: black;
+  font-size: 27px;
+  padding: 20px; }
+
+.bigicon {
+  font-size: 35px;
+  color: black; }
+
+#botonEnviar {
+  margin-bottom: 30px; }
+
+.gridFormulario {
+  display: flex;
+  display: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex-direction: row; }
+
+legend h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px; }
+
+/* formato en nav y footer*/
+nav {
+  background-color: #dbd8d8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder; }
+
+li {
+  margin-left: 50px; }
+
+/*  */
+footer {
+  height: 70px;
+  background-color: #dbd8d8;
+  color: white;
+  text-align: center; }
+
+/* formato sobre-mi*/
+.bloqueBlancoSobreMi {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  .bloqueBlancoSobreMi h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px; }
+  .bloqueBlancoSobreMi button {
+    font-size: 16px;
+    background-color: black;
+    text-decoration: none;
+    font-family: arial;
+    padding: 20px;
+    color: white;
+    transition: 0.3s; }
+  .bloqueBlancoSobreMi button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none; }
+  .bloqueBlancoSobreMi article {
+    padding: 5%;
+    text-align: center; }
+    .bloqueBlancoSobreMi article p {
+      font-family: "Quicksand", sans-serif;
+      font-weight: bolder;
+      font-size: 18px;
+      text-align: left;
+      padding-bottom: 10%; }
+    .bloqueBlancoSobreMi article h2 {
+      font-family: "Ubuntu", sans-serif;
+      font-size: 45px;
+      text-align: left; }
+
+.bloqueBlancoSM {
+  height: auto; }
+  .bloqueBlancoSM h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 45px; }
+  .bloqueBlancoSM p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 10%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%; }
+  .bloqueBlancoSM h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+    text-align: center; }
+  .bloqueBlancoSM div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+    padding-bottom: 20px; }
+
+/* formato en seccion galeria*/
+.fotosGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: black; }
+  .fotosGrid img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 25px 25px 25px 25px; }
+
+.bloqueBlancoGaleria {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%; }
+  .bloqueBlancoGaleria h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 45px;
+    margin-bottom: 15px; }
+  .bloqueBlancoGaleria p {
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-weight: bolder;
+    font-size: 18px; }
+  .bloqueBlancoGaleria button {
+    font-size: 16px;
+    background-color: black;
+    text-decoration: none;
+    font-family: arial;
+    padding: 20px;
+    color: white;
+    margin-top: 15px;
+    transition: 0.3s; }
+  .bloqueBlancoGaleria button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none; }
+
+/* formato seccion aniceto*/
+.bloqueBlancoAniceto {
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto; }
+  .bloqueBlancoAniceto h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 45px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center; }
+  .bloqueBlancoAniceto p {
+    font-family: "Quicksand", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    margin-bottom: 10%;
+    font-weight: bolder;
+    font-size: 18px; }
+  .bloqueBlancoAniceto iframe {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10%; }
+
+.bloqueNegroAniceto {
+  background-color: black;
+  padding: 30px;
+  height: auto; }
+  .bloqueNegroAniceto h3 {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center; }
+
+.aniceto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: black; }
+  .aniceto img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 25px 25px 25px 25px; }
+
+.bloqueBlancoAnicetoChico {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .bloqueBlancoAnicetoChico p {
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 18px; }
+  .bloqueBlancoAnicetoChico button {
+    font-size: 16px;
+    background-color: black;
+    text-decoration: none;
+    font-family: arial;
+    padding: 20px;
+    color: white;
+    transition: 0.3s; }
+  .bloqueBlancoAnicetoChico button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none; }
+
+iframe {
+  width: 60rem;
+  height: 40rem; }
+
+/* media queries*/
+@media only screen and (max-width: 600px) {
+  .gridFormulario {
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .fotoContacto {
+    display: none; }
+  .fotoSM {
+    height: 75%;
+    width: 75%; } }
+
+@media only screen and (max-width: 896px) {
+  .bloqueBlancoSobreMi {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .fotoContacto {
+    display: none; }
+  .fotosGrid {
+    grid-template-columns: 100%; }
+  .aniceto {
+    grid-template-columns: 100%; } }

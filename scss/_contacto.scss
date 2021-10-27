@@ -1,0 +1,33 @@
+/* formulario */
+.header {
+  color: black;
+  font-size: 27px;
+  padding: 20px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: black;
+}
+
+#botonEnviar {
+  margin-bottom: 30px;
+}
+
+.gridFormulario {
+  display: flex;
+  display: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex-direction: row;
+
+}
+
+legend {
+  h1 {
+    font-family: $fuenteTitulos;
+    font-size: $tamanioTitulos;
+  }
+}

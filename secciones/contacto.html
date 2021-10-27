@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS link -->
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="stylesheet" href="../css/estiloscss.css">
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../multimedia/favicon/favicon.ico" type="image/x-icon">
+  <!-- fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <!-- animacion -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Contacto JCV</title>
+  <meta name="description="
+    content="Contactá a Juan Carlos Villarreal, fotógrafo artístico argentino con reconocimiento a nivel mundial">
+</head>
+
+<body>
+  <header>
+    <!-- navbar con Bootstrap-->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid navbar-light">
+        <a class="navbar-brand" href="../index.html"><img src="../multimedia/logo/JCVlogo.png"
+            alt="Logo Juan Carlos Villarreal"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link active " aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../secciones/galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/aniceto.html">Aniceto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../secciones/sobre-mi.html">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/contacto.html">Contacto <i class="far fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Inicio Formulario con Bootstrap-->
+  <section class="gridFormulario" data-aos="fade-up">
+    <div class="container">
+      <div class="row container">
+        <div class="col-md-12">
+          <div class="well well-sm">
+            <form class="form-horizontal" method="post">
+
+              <fieldset>
+                <legend class="header">
+                  <h1>Contacto</h1>
+                </legend>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                  <div class="col-md-12">
+                    <input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                  <div class="col-md-12">
+                    <input id="email" name="email" type="text" placeholder="Correo" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                  <div class="col-md-12">
+                    <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i
+                      class="fa fa-pencil-square-o bigicon"></i></span>
+                  <div class="col-md-12">
+                    <textarea class="form-control" id="message" name="message" placeholder="Ingrese aquí su comentario"
+                      rows="7"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group text-center" id="botonEnviar">
+                  <div class="col-md-12 ">
+                    <button type="submit"
+                      class="btn btn-primary btn-lg mp-1 btn btn-dark rounded-0 mt-4 ms-6">Enviar</button>
+                  </div>
+
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- foto formulario -->
+    <div>
+      <img src="../multimedia/formulario/foto-formulario.png" class="fotoContacto" alt="">
+    </div>
+  </section>
+  <!-- pie de pagina -->
+  <footer>
+    <p>Copyright to Juan Carlos Villarreal 2021 &#169</p>
+  </footer>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+  <!-- animacion -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

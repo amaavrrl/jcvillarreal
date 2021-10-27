@@ -1,0 +1,36 @@
+@media only screen and (max-width: $medidaS) {
+    .gridFormulario {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .fotoContacto {
+        display: none;
+    }
+
+    .fotoSM {
+        height: 75%;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: $medidaM) {
+    .bloqueBlancoSobreMi {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .fotoContacto {
+        display: none;
+    }
+
+    .fotosGrid {
+        grid-template-columns: 100%;
+
+    }
+
+    .aniceto {
+        grid-template-columns: 100%;
+    }
+
+}

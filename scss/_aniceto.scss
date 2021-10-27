@@ -1,0 +1,104 @@
+.bloqueBlancoAniceto {
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    h1 {
+        font-family: $fuenteTitulos;
+        font-size: $tamanioTitulos;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    p {
+        font-family: $fuenteParrafos;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+        margin-bottom: 10%;
+        font-weight: bolder;
+        font-size: $tamanioParrafos;
+    }
+
+    iframe {
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 10%;
+
+    }
+}
+
+.bloqueNegroAniceto {
+    background-color: black;
+    padding: 30px;
+    height: auto;
+
+    h3 {
+        color: white;
+        font-family: $fuenteTitulos;
+        font-size: 35px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
+
+    }
+}
+
+.aniceto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 25px 25px 25px 25px;
+    }
+}
+
+.bloqueBlancoAnicetoChico {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+        font-family: $fuenteParrafos;
+        text-align: justify;
+        font-weight: bolder;
+        font-size: $tamanioParrafos;
+    }
+
+    button {
+        font-size: 16px;
+        background-color: black;
+        text-decoration: none;
+        font-family: arial;
+        padding: 20px;
+        color: white;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+iframe {
+    width: 60rem;
+    height: 40rem;
+}
