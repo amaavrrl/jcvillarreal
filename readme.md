@@ -1,5 +1,5 @@
 Sitio web del fotógrafo Juan Carlos Villarreal
 
-https://fotoideasjcv.000webhostapp.com/index.html
+https://jcvillarreal.netlify.app/
 
 Creada por Amalia Villarreal
